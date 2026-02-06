@@ -1,42 +1,35 @@
-body {
-    background-color: #f0f2f5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Microsoft Azure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-.container {
-    text-align: center;
-    background: white;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 90%;
-    max-width: 400px;
-}
+<body>
 
-.profile-pic {
-    width: 100px;
-    height: 100px;
-    background-color: #007bff;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-}
+<header>
+    <h1>Microsoft Azure</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="azure.html">Microsoft Azure</a>
+    </nav>
+</header>
 
-.button {
-    display: block;
-    background-color: #007bff;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background 0.3s;
-}
+<main>
+    <h2>Wat is Microsoft Azure?</h2>
+    <p>
+        Microsoft Azure is een cloudplatform waarmee bedrijven applicaties kunnen bouwen, hosten en beheren.
+    </p>
 
-.button:hover {
-    background-color: #0056b3;
-}
+    <p>
+        Azure biedt services zoals virtuele machines, opslag en databases.
+    </p>
+</main>
+
+<footer>
+    <p>Schoolopdracht Prototype</p>
+</footer>
+
+</body>
+</html>
