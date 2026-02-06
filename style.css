@@ -1,35 +1,17 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <title>Microsoft Azure</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+.planning {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 1.6;
+}
 
-<body>
+.week {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 3px solid #007bff;
+    background: #f9f9f9;
+}
 
-<header>
-    <h1>Microsoft Azure</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="azure.html">Microsoft Azure</a>
-    </nav>
-</header>
-
-<main>
-    <h2>Wat is Microsoft Azure?</h2>
-    <p>
-        Microsoft Azure is een cloudplatform waarmee bedrijven applicaties kunnen bouwen, hosten en beheren.
-    </p>
-
-    <p>
-        Azure biedt services zoals virtuele machines, opslag en databases.
-    </p>
-</main>
-
-<footer>
-    <p>Schoolopdracht Prototype</p>
-</footer>
-
-</body>
-</html>
+.week h3 {
+    margin-top: 0;
+    color: #007bff;
+}
